@@ -29,9 +29,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['ec2-18-214-214-252.compute-1.amazonaws.com', 'localhost']
 CORS_ORIGINS_ALLOW_ALL = True
-CORS_ORIGIN_WHITELIST = [
-    'https://ec2-18-214-214-252.compute-1.amazonaws.com'
-]
+
 
 # Application definition
 

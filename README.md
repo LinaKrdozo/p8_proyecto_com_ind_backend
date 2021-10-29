@@ -1,1 +1,2 @@
-# p8_proyecto_com_ind_backend
+# Proyecto_comunidades_indigenas
+este proyecto va a permitir a las comunidades indígenas registrar sus productos artesanales

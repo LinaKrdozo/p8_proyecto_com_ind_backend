@@ -28,8 +28,11 @@ SECRET_KEY = 'django-insecure-+oq#ic(9vlx3nf1xyhdbvew1k8=o-77mo@6&e90^!+7p^pr2#j
 DEBUG = False
 
 ALLOWED_HOSTS = ['ec2-18-214-214-252.compute-1.amazonaws.com', 'localhost']
-CORS_ALLOWED_ORIGINS =[
-    "http://localhost"
+CORS_ORIGINS_ALLOW_ALL = True
+CORS_ORIGIN_WHITELIST = [
+    'http://localhost:3000',
+    'http://localhost:8000',
+    'http://localhost:8080',
 ]
 
 # Application definition
